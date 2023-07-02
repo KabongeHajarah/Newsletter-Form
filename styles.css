@@ -4,13 +4,37 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(34, 32, 52, 0.939);
+    color: black;
+    font-weight:600;
 }
 .main{
 display: flex;
 flex-direction: row;
 margin: 0% auto;
 background-color: white;
+width:800px;
+padding: 30px;
+margin-top: 40px;
+border-radius: 20px;
 }
-.major{
-    background-color: grey;
+.img{
+    width:20px
+}
+p{
+    line-height: 20px;
+    margin-top:30px;
+}
+input,button{
+    width:350px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: solid black thin;
+}
+button{
+background-color: rgba(231, 55, 55, 0.958);
+color: white;
+border: none;
+box-shadow:  2px 2px 4px rgba(255, 0, 0, 0.5);
 }
