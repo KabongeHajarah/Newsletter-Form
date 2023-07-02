@@ -38,3 +38,16 @@ color: white;
 border: none;
 box-shadow:  2px 2px 4px rgba(255, 0, 0, 0.5);
 }
+.confirmation{
+    background-color: #fff;
+    padding: 30px;
+    margin: 0 auto;
+    width: 450px;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.btn{
+background-color: rgb(19, 27, 55);
+width: 420px;
+}
